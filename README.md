@@ -57,7 +57,7 @@ go build -o bin/myapp.exe ./cmd/myapp/main.go
 
 - `http://localhost:8080/` — вы должны увидеть текст `Hello, Go project structure!`
 - `http://localhost:8080/ping` — вы получите JSON-ответ вида `{"status":"ok","time":"..."}`
-- ([Если выполнено Упр. B]) `http://localhost:8080/fail` — вы получите JSON-ошибку
+- `http://localhost:8080/fail` — вы получите JSON-ошибку
 
 ### Через командную строку (PowerShell) с помощью curl:
 
@@ -90,7 +90,9 @@ curl -i http://localhost:8080/fail
 
 **Скрин запуска сервера и логов в терминале (после обращений к / и /ping) и Скрин/вывод curl -i http://localhost:8080/ping :**
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb18924e-4f09-4884-9d06-6be0ff932a07" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06d905d3-9c39-4387-a59e-3ba3f459cd83" />
+
+
 
 **Cкрин curl -i -H "X-Request-Id: demo-123"**
 
